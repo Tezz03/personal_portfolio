@@ -1,0 +1,1286 @@
+#banner {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#banner h1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#project-grid {
+    width: 100%;
+    height: 900px;
+
+}
+
+#project-grid div {
+    padding-top: 30px;
+}
+
+#Fecontent {
+    height: 500px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#FEcontent img {
+    width: 35%;
+    height: 35%;
+    float: left;
+    padding-left: 25px;
+}
+
+#FEcontent h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#FEcontent p {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(74, 74, 74);
+    padding: 0;
+    margin: 0px;
+}
+
+#FEcontent span {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+#FEcontent button {
+    background-color: rgb(34, 80, 218);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+
+#FEcontent ul {
+    font-size: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+#FEcontent li {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+#Fecontent1 {
+    height: 500px;
+    font-size: large;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#FEcontent1 img {
+    width: 35%;
+    height: 35%;
+    float: left;
+    padding-left: 25px;
+}
+
+#FEcontent1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#FEcontent1 p {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(74, 74, 74);
+    padding: 0;
+    margin: 0px;
+}
+
+#FEcontent1 span {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-left: 10px;
+    padding: 7px;
+}
+
+/* don't know what it is related to
+
+#FEcontent1 button {
+    background-color: rgb(34, 80, 218);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    
+}
+    */
+
+#FEcontent1 ul {
+    font-size: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+
+#FEcontent1 li {
+    font-size: 15px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#experience h1 {
+    width: 100%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#projects {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px;
+}
+
+#projects #exp2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    
+}
+
+#exp2 a {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+#exp2 a img {
+    height: 300px;
+    width: 100%;
+    
+}
+
+#exp2 h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#exp2 p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#projects #exp3 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    
+}
+
+#exp3 a {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+#exp3 a img {
+    height: 300px;
+    width: 100%;
+    
+}
+
+#exp3 h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#exp3 p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+#projects #exp4 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 4px;
+    
+}
+
+#exp4 a {
+    width: 100%;
+    height: 50%;
+    cursor: pointer;
+}
+
+#exp4 a img {
+    height: 300px;
+    width: 100%;
+    
+}
+
+#exp4 h3 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+#exp4 p {
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+@media (max-width:2560px) {
+    #banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    
+    #banner h1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 70px;
+    }
+    
+    #project-grid {
+        width: 100%;
+        height: 1400px;
+        border-bottom: 1px solid;
+    
+    }
+    
+    #project-grid div {
+        padding-top: 0px;
+    }
+    
+    #Fecontent {
+        height: 650px;
+        font-size: large;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+    
+    }
+    
+    #FEcontent img {
+        width: 50%;
+        height: 600px;
+        float: left;
+        padding-left: 25px;
+    }
+    
+    #FEcontent h1 {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0 0 10px 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #FEcontent p {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding-left: 30px;
+        margin: 0px;
+    }
+    
+    #FEcontent span {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        margin-left: 10px;
+        padding: 7px;
+    }
+    
+    #FEcontent button {
+        background-color: rgb(34, 80, 218);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        
+    }
+    
+    #FEcontent ul {
+        font-size: 30px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #FEcontent li {
+        font-size: 25px;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 5px;
+    
+    }
+    
+    #Fecontent1 {
+        height: 610px;
+        font-size: large;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    #FEcontent1 img {
+        width: 50%;
+        height: 600px;
+        float: left;
+        padding-left: 25px;
+    }
+    
+    #FEcontent1 h1 {
+        font-size: 70px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #FEcontent1 p {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding-left: 30px;
+        margin: 0px;
+    }
+    
+    #FEcontent1 span {
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+        margin-left: 10px;
+        padding: 7px;
+    }
+    
+    /* don't know what it is related to
+    
+    #FEcontent1 button {
+        background-color: rgb(34, 80, 218);
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        
+    }
+        */
+    
+    #FEcontent1 ul {
+        font-size: 20px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #FEcontent1 li {
+        font-size: 25px;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 5px;
+    
+    }
+    
+    #experience h1 {
+        width: 100%;
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #projects {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    #projects #exp2 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp2 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp2 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp2 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp2 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    #projects #exp3 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp3 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp3 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp3 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp3 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    #projects #exp4 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp4 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp4 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp4 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp4 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    
+}
+
+@media (max-width:1440px) {
+    #banner {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #banner h1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #project-grid {
+        width: 100%;
+        height: 800px;
+        border-bottom: 1px solid;
+    
+    }
+    
+    #project-grid div {
+        padding-top: 30px;
+    }
+    
+    #Fecontent {
+        height: 500px;
+        font-size: large;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    #FEcontent img {
+        width: 35%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+    
+    #FEcontent h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #FEcontent p {
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+    
+    #FEcontent span {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 7px;
+    }
+    
+    #FEcontent button {
+        background-color: rgb(34, 80, 218);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        
+    }
+    
+    #FEcontent ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #FEcontent li {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 5px;
+    
+    }
+    
+    #Fecontent1 {
+        height: 500px;
+        font-size: large;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    
+    
+    #FEcontent1 img {
+        width: 35%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+    
+    #FEcontent1 h1 {
+        font-size: 30px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+    #FEcontent1 p {
+        display: flex;
+        justify-content: center;
+        font-size: 17px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+    
+    #FEcontent1 span {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 7px;
+    }
+    
+    /* don't know what it is related to
+    
+    #FEcontent1 button {
+        background-color: rgb(34, 80, 218);
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 35px;
+        border: none;
+        cursor: pointer;
+        border-radius: 20px;
+        
+    }
+        */
+    
+    #FEcontent1 ul {
+        font-size: 10px;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    #FEcontent1 li {
+        font-size: 15px;
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 5px;
+    
+    }
+    
+    #experience h1 {
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #projects {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 0px;
+    }
+    
+    #projects #exp2 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp2 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp2 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp2 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp2 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    #projects #exp3 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp3 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp3 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp3 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp3 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    #projects #exp4 {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+        
+    }
+    
+    #exp4 a {
+        width: 100%;
+        height: 50%;
+        cursor: pointer;
+    }
+    
+    #exp4 a img {
+        height: 300px;
+        width: 100%;
+        
+    }
+    
+    #exp4 h3 {
+        font-size: 40px;
+        font-family: sans-serif;
+    }
+    
+    #exp4 p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+    #project-grid div {
+        padding-top: 20px;
+    }
+
+    #FEcontent img {
+        width: 40%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+
+    #FEcontent p {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+
+    #FEcontent h1 {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 13px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #FEcontent p {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+
+    #FEcontent1 img {
+        width: 40%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+
+    #FEcontent1 h1 {
+        font-size: 25px;
+        font-weight: bold;
+        margin: 0;
+        padding-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #FEcontent1 p {
+        display: flex;
+        justify-content: center;
+        font-size: 13px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+
+    #FEcontent1 span {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        margin-left: 10px;
+        padding: 0 0 10px;
+    }
+
+    #FEcontent1 p {
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding-left: 30px;
+        margin: 0px;
+    }
+
+    #projects #exp2 {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+    #exp2 a img {
+        height: 225px;
+        width: 100%;
+    }
+
+    #exp2 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+    }
+
+    #exp2 p {
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-top: 7px;
+    }
+
+    #exp2 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+        margin: 40px 0 10px;
+    }
+
+    #projects #exp4 {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+    #exp4 a img {
+        height: 225px;
+        width: 100%;
+    }
+
+    #exp4 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+    }
+
+    #exp4 p {
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-top: 7px;
+    }
+
+    #exp4 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+        margin: 40px 0 10px;
+    }
+
+    #projects #exp3 {
+        width: 300px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+    #exp3 a img {
+        height: 225px;
+        width: 100%;
+    }
+
+    #exp3 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+    }
+
+    #exp3 p {
+        font-size: 25px;
+        font-family: sans-serif;
+        margin-top: 7px;
+    }
+
+    #exp3 h3 {
+        font-size: 30px;
+        font-family: sans-serif;
+        padding-top: 7px;
+        margin: 40px 0 10px;
+    }
+}
+
+@media (max-width: 801px) {
+
+    #project-grid {
+        width: 100%;
+        height: 1050px;
+        border-bottom: 1px solid;
+    }
+
+    #project-grid div {
+        padding-top: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #experience h1 {
+        width: 100%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+
+    #projects #exp2 {
+        width: 200px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp2 a img {
+        height: 155px;
+        width: 100%;
+    }
+
+    #exp2 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 40px 0 10px;
+    }
+
+    #exp2 p {
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-top: 5px;
+    }
+
+    #projects #exp3 {
+        width: 200px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp3 a img {
+        height: 155px;
+        width: 100%;
+    }
+
+    #exp3 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 40px 0 10px;
+    }
+
+    #exp3 p {
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-top: 5px;
+    }
+
+    #projects #exp4 {
+        width: 200px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp4 a img {
+        height: 155px;
+        width: 100%;
+    }
+
+    #exp4 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 40px 0 10px;
+    }
+
+    #exp4 p {
+        font-size: 15px;
+        font-family: sans-serif;
+        margin-top: 5px;
+    }
+    
+}
+
+@media (max-width: 426px) {
+
+    #project-grid {
+        width: 100%;
+        height: 950px;
+        border-bottom: 1px solid;
+    }
+
+    #FEcontent p {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: bold;
+        font-style: italic;
+        color: rgb(74, 74, 74);
+        padding: 0;
+        margin: 0px;
+    }
+    #FEcontent img {
+        width: 50%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+    
+
+    #Fecontent h1 {
+        font-size: 30px;
+    }
+    #FEcontent1 img {
+        width: 50%;
+        height: 35%;
+        float: left;
+        padding-left: 25px;
+    }
+
+    #FEcontent1 h1 {
+        font-size: 30px;
+    }
+
+    #experience h1 {
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0 0 0;
+    }
+
+    #projects {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0 0 0;
+    }
+
+    #projects #exp2 {
+        width: 200px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp2 a img {
+        height: 100px;
+        width: 100%;
+    }
+
+    #exp2 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 10px 0 10px;
+    }
+
+    #projects #exp3 {
+        width: 200px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp3 a img {
+        height: 100px;
+        width: 100%;
+    }
+
+    #exp3 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 10px 0 10px;
+    }
+
+    #projects #exp4 {
+        width: 200px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid;
+        border-radius: 4px;
+    }
+
+    #exp4 a img {
+        height: 100px;
+        width: 100%;
+    }
+
+    #exp4 h3 {
+        font-size: 17px;
+        font-family: sans-serif;
+        padding-top: 0px;
+        margin: 10px 0 10px;
+    }
+}

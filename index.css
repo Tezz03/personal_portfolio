@@ -1,0 +1,558 @@
+
+/* Container Section */
+
+#container {
+    
+    width: 100%;
+    height: 720px;
+    justify-content: center;
+    text-align: center;
+}
+
+#container img {
+    float: left;
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+#container h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+#container p {
+    font-size: 70px;
+}
+
+#container button {
+    background-color: rgb(240,240,232);
+    color: rgb(49, 49, 49);
+    width: 35%;
+    height: 80px;
+    font-size: 70px;
+    border: none;
+}
+
+#container button a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+.popup-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 500px;
+}
+
+#about {
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid;
+}
+
+#about h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+
+#about p {
+    font-size: 30px;
+    color: black;
+    padding: 10px;
+}
+
+#about button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+    border: none;
+    color: black;
+}
+
+#about button a {
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 2px solid;
+}
+
+#project-grid {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 20px;
+    border-radius: 8px;
+    margin-left: 100px;
+
+}
+
+#banner h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+
+
+@media (max-width: 1440px) {
+
+    
+    #container {
+        width: 100%;
+        height: 720px;
+        justify-content: center;
+        text-align: center;
+        
+    }
+    
+    #container img {
+        float: left;
+        width: 50%;
+        height: auto;
+        margin-top: 19px;
+    }
+    
+    #container h1 {
+        font-family: sans-serif;
+        font-size: 100px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    #container p {
+        font-size: 70px;
+    }
+    
+    #container button {
+        background-color: rgb(34,80,218);
+        color: #fff;
+        width: 35%;
+        height: 80px;
+        font-size: 70px;
+    }
+    
+    #container button a {
+        text-decoration: none;
+        color: #000;
+        border-bottom: 2px solid;
+    }
+    
+    #about {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid;
+    }
+    
+    #about h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #about p {
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+    }
+    
+    #container button {
+        background-color: rgb(240,240,232);
+        width: 35%;
+        height: 80px;
+        font-size: 70px;
+        border: none;
+    }
+    
+    #about button a {
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+    
+    #project-grid {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 20px;
+        border-radius: 8px;
+        margin-left: 100px;
+    
+    }
+    
+    #banner h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+    
+}
+
+@media (max-width: 1024px) {
+    #container {
+        width: 100%;
+        height: 900px;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    #container img {
+        float: left;
+        width: 60%;
+        height: auto;
+        margin-top: 40px;
+    }
+    
+    #container h1 {
+        font-family: sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    #container p {
+        font-size: 40px;
+    }
+    
+    #container button {
+        background-color: rgb(240,240,232);
+        color: rgb(49, 49, 49);
+        width: 35%;
+        height: 40px;
+        font-size: 40px;
+        border: none;
+    }
+    
+    #container button a {
+        text-decoration: none;
+        color: #000;
+        border-bottom: 2px solid;
+        
+    }
+
+    .popup {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      
+      .popup-content {
+        background-color: #fff;
+        margin: 10% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 80%;
+        max-width: 500px;
+    }
+    
+    #about {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid;
+    }
+    
+    #about h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #about p {
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+    }
+    
+    #about button {
+        background-color: rgb(240,240,232);
+        /* background-color: rgb(34,80,218); */
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: none;
+        border: none;
+        color: black;
+    }
+    
+    #about button a {
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+    
+    #project-grid {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 20px;
+        border-radius: 8px;
+        margin-left: 100px;
+    
+    }
+    
+    #banner h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 799px) {
+    #container {
+        width: 100%;
+        height: 900px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    #container img {
+        float: left;
+        width: 60%;
+        height: auto;
+        margin-top: 40px;
+    }
+    
+    #container h1 {
+        font-family: sans-serif;
+        font-size: 80px;
+        font-weight: bold;
+        margin-top: 50px;
+    }
+    
+    #container p {
+        font-size: 40px;
+    }
+    
+    #container button {
+        background-color: rgb(240,240,232);
+        color: rgb(49, 49, 49);
+        width: 35%;
+        height: 40px;
+        font-size: 40px;
+        border: none;
+    }
+    
+    #container button a {
+        text-decoration: none;
+        color: #000;
+        border-bottom: 2px solid;
+        
+    }
+    
+    #about {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid;
+    }
+    
+    #about h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 50px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #about p {
+        font-size: 20px;
+        color: black;
+        padding: 10px;
+    }
+    
+    #about button {
+        background-color: rgb(240,240,232);
+        /* background-color: rgb(34,80,218); */
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: none;
+        border: none;
+        color: black;
+    }
+    
+    #about button a {
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+    
+    #project-grid {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 20px;
+        border-radius: 8px;
+        margin-left: 100px;
+    
+    }
+    
+    #banner h1 {
+        font-size: 80px;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:399px) {
+    #container {
+        width: 100%;
+        height: 1000px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    #container img {
+        width: 90%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    #container h2 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 60px;
+        font-weight: 600;
+        margin-top: 50px;
+    }
+
+    #container p {
+        font-size: 35px;
+        margin: 0 0 20px 0;
+    }
+
+    #container button {
+        background-color: rgb(240,240,232);
+        color: rgb(49, 49, 49);
+        width: 35%;
+        height: 40px;
+        font-size: 15px;
+        border: none;
+    }
+
+    #container button a {
+        text-decoration: none;
+        color: #000;
+        border-bottom: 2px solid;
+    }
+
+    #about {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        border-top: 1px solid;
+    }
+
+    #about h1 {
+        font-weight: bold;
+        font-family: sans-serif;
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+    }
+    #about button {
+        background-color: rgb(240,240,232);
+        /* background-color: rgb(34,80,218); */
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        border: none;
+        color: black;
+    }
+
+    #about button a {
+        color: #000;
+        text-decoration: none;
+        text-align: center;
+        border-bottom: 2px solid;
+    }
+
+    #exp {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    #project-grid {
+        width: 80%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        border: 20px;
+        border-radius: 8px;
+        margin-left: 100px;
+    }
+    
+    
+}
